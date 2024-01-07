@@ -1,0 +1,229 @@
+
+   
+    body{
+  background-color: rgb(255, 231, 197);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 0%;
+  margin: 0%;
+}
+    header {
+        color: rgb(255, 255, 255);
+        background: rgb(0, 198, 255);
+        padding: 4%;
+        text-align: center;
+            height: 150px;
+            background-color: rgb(244, 176, 176); /* For browsers that do not support gradients */
+            background-image: linear-gradient(rgb(233, 255, 153), rgb(0, 225, 255),rgb(0, 222, 170));
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+    }
+    section{
+        color: rgb(0, 0, 0);
+        background: rgb(255, 231, 197);
+        padding: 25%;
+        margin: 0%;
+    }
+   footer{
+        color: rgb(255, 253, 253);
+        background:rgb(135, 255, 175);
+        height: 100px;
+        background-color:rgb(244, 176, 176); /* For browsers that do not support gradients */
+        background-image:linear-gradient(rgb(233, 255, 153), rgb(0, 225, 255),rgb(0, 222, 170));
+        text-align: center;
+        padding:5%;
+        margin: 0%;
+       
+        
+        
+        
+    }
+    form{
+     
+      offset-distance: 5px;
+
+    }
+    ul{
+        border:rgb(143, 4, 4);
+        list-style-type:none;
+        margin-right: 40px;
+        
+    }
+    button.Overview{
+      text-align: left;
+     
+     
+    }
+    button{
+      color: #fff;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+    }
+ 
+    button:hover{
+      box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+      transform: translateY(-2px);
+        }
+    button:active{
+      box-shadow: none;
+      transform: translateY(0);
+    }
+    
+    
+  
+
+/*disclaimer code--------------------------------------------------------
+ /* The popup */
+.disclaimer-popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(117, 117, 117); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Popup content */
+.disclaimer-content {
+  background-color: #c00404;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  height: 50%;
+}
+.disclaimer1{
+  font-size: xx-large;
+}
+
+/* The close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;}
+
+  /*hamburger menu code-------------------------------------------
+  /* Hamburger Menu Icon */
+.hamburger-menu {
+    cursor: pointer;
+    
+    width: 30px;
+    height: 25px;
+    position: relative;
+    left: 10px;
+    bottom: 60px;
+  }
+  
+  .bar {
+    background-color: #333;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .bar:nth-child(1) { top: 0; }
+  .bar:nth-child(2) { top: 11px; }
+  .bar:nth-child(3) { top: 22px; }
+  
+  /* Dropdown Menu */
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  
+  .nav-links li {
+    padding: 45px 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #00ffae;
+  }
+  
+  /* Show menu when .active is added to .nav-links */
+  .nav-links.active {
+    display: inline-flex;
+  }
+  
+ /*section content homepage*/
+ section.Home{
+  
+  text-align:center;
+  left: 70px;
+  color: #007bff;
+  height: 300px;
+  padding-bottom: 140px;
+  font-size: x-large;
+ }
+ section {
+  color:rgb(99, 99, 99);
+  text-align: left;
+  padding: 0%;
+  font-family: 
+  'Franklin Gothic Medium',
+   'Arial Narrow',
+   Arial, sans-serif;
+   padding: 30px;
+}
+section.two{
+  padding-right: 20px;
+  padding-bottom: 200px;
+}
+section.three{
+padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-size: large;
+}
+section.four{
+  padding-bottom: 30px;
+  text-align: center;
+  padding-left:50px ;
+  padding-right: 50px;
+  font-size:large;
+}
+section.five{
+  font-size: large;
+ text-align: center;
+  padding-bottom: 70px;
+}
+
+img{
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid #222505;}
+
+  li.info{
+    font-size: x-large;
+    color: #1c3855;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+  }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+<link rel="stylesheet" href="style.css">
+<title>Portofolio</title>
+</head>
+
+
+
+<body>
+    <header>    
+<h1>My Portofolio</h1>
+        
+        <nav>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+
+
+              <form action="index.html">
+              <button class="Overview" type="Overview">Overview</button>
+            </form>
+            <form action="2023-2026.html">
+              <button type="Overview">2023-2026</button>
+            </form>
+            <form action="2026-2029.html">
+              <button type="Overview">2026-2029</button>
+            </form>
+            <form action="2029-2032.html">
+              <button type="Overview">2029-2032</button>
+            </form>
+            <form action="2032-2034.html">
+              <button type="Overview">2032-2034</button>
+            </form>
+                
+            </ul>
+        </nav>
+        
+
+      <div id="disclaimer-popup" class="disclaimer-popup">
+          <div class="disclaimer-content">
+            <span class="close" onclick="closeDisclaimer()">&times;</span>
+            <h3>Disclaimer</h3>
+            <p class="disclaimer1">This is a disclaimer.This website was built for a school
+               project and none of the followeing content is true.
+               the text was written using chat gpt and the images were
+                generated using magicstudio.ai(this website was built 
+                for educational purposes only)</p>
+          </div>
+        </div>
+ 
+    </header>
+
+
+     <section class="Home">
+      <h1>Overview of my accomplishments</h1>
+
+
+  <li>
+    Finished studying at univesity and got my degree 
+  </li>
+  <br>
+  <li>Worked at a robotics company as a softwear developer</li>
+  <br>
+  <li>Opened my own buisness after a turn of events</li>
+  <br>
+  <li>became a billionaire</li>
+  <br>
+  <li class="info">Click on the hamburger menu or scroll down to visit the next page </li>
+
+
+
+ </section>
+  
+
+
+<footer>  
+        <nav>
+        <ul>
+           
+            <li><a href="2023-2026.html">2023-2026</a></li>
+           
+        </ul>
+    </nav>
+</footer>
+    
+    
+</body>
+
+  
+<script>
+  // When the user clicks on <span> (x), close the popup
+function closeDisclaimer() {
+  document.getElementById('disclaimer-popup').style.display = 'none';
+}
+
+// When the page loads, show the popup
+window.onload = function() {
+  document.getElementById('disclaimer-popup').style.display = 'block';
+}
+</script>
+</script>
+<script>document.addEventListener('DOMContentLoaded', function () {
+    var hamburger = document.querySelector('.hamburger-menu');
+    var navLinks = document.querySelector('.nav-links');
+  
+    hamburger.addEventListener('click', function () {
+      navLinks.classList.toggle('active');
+    });
+  });</script>
+
+
+</html>
